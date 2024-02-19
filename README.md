@@ -28,7 +28,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ```
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 
 > Burada yaklaşık 1dk bekliyoruz. İşlem bittiğinde devam edersiniz.
