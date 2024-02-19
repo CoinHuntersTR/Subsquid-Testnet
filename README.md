@@ -114,6 +114,27 @@ sqd get-peer-id
 ```
 sqd up
 ```
+> Burada Docker hatası alırsanız. Aşağıdaki komutu çalıştırın;
+
+```
+nano commands.json
+```
+> Açılan sayfada aşağıdak komutları bulup değişiklik yapıyoruz. Sonrasında Ctrl x Y enter yapıp `sqd up` komutunu tekrar çalıştırın.
+
+```
+         "up": {
+         "deps": ["check-key"],
+         "description": "Start a PG database",
+-        "cmd": ["docker", "compose", "up", "-d"] // sizde bu şekilde ise
++        "cmd": ["docker-compose", "up", "-d"] // buradaki gibi düzenleyin.
+       },
+       "down": {
+         "description": "Drop a PG database",
+-        "cmd": ["docker", "compose", "down"] //sizde bu şekilde ise 
++        "cmd": ["docker-compose", "down"] // buradaki gibi düzenleyin.
+       },
+```
+
 ```
 sqd build
 ```
