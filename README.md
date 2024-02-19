@@ -1,4 +1,4 @@
-# Subsquid-Testnet Run Netwoek One
+# Subsquid-Testnet Run Network One
 
 ![image](https://pbs.twimg.com/profile_banners/1417081246904197121/1694021343/1500x500)
 
